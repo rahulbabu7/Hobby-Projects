@@ -40,11 +40,13 @@
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 600px) {
   .header a {
     float: none;
     display: block;
     text-align: left;
+	  height: auto;
+    width: auto;
    
   }
   .header-right {
@@ -177,13 +179,13 @@ margin:auto;
   color: #2f2f2f;
 }
 
-@media screen and (min-width: 24.375em) {
+@media screen and (min-width:600px) {
   .legal .legal__links {
     margin-left: auto;
   }
 }
 
-@media screen and (min-width: 40.375em) {
+@media screen and (min-width: 600px) {
   .footer__nav > * {
     flex: 1;
   }
@@ -223,4 +225,21 @@ margin:auto;
 .b2:hover{
   background-color: #d8ead9;
   color: rgb(14, 13, 13);
+}
+
+@media screen and(max-width:600px){
+
+  .video{
+    width: 100%;
+    height: auto;
+  }
+  .para{
+    font-size: 15px;
+  }
+  .heading{
+    font-size: 36px;
+  }
+
+
+
 }
